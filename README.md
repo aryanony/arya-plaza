@@ -35,6 +35,11 @@ Purabsarai Road
 Munger
 Bihar
 
-## License
 
-© Arya Plaza. All Rights Reserved.
+Copyright © 2026 Arya Plaza. All Rights Reserved.
+
+This repository, including its source code, design, graphics, images, branding, logo, content, and documentation, is proprietary and confidential.
+
+No part of this repository may be copied, modified, distributed, published, sublicensed, sold, or used in any form without prior written permission from the copyright owner.
+
+Unauthorized use of this material is strictly prohibited.
