@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Arya Plaza — Premium Commercial & Residential Spaces at J.P. Chowk, Munger</title>
+<meta name="description" content="Arya Plaza is Munger's most transparent commercial address — 7 direct-owner retail units on Purabsarai Road, J.P. Chowk, with dual-road access, zero brokerage, and India's first software-managed leasing system for a Bihar market property." />
+<meta name="keywords" content="Arya Plaza, shop for rent Munger, commercial space J.P. Chowk, Purabsarai Road rent, no brokerage shop Munger, dukan rent Munger, Munger real estate, Bihar 811201 commercial property" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0A0F0E" />
+<link rel="icon" type="image/png" href="assets/arya-plaza-logo.png" />
+<link rel="canonical" href="https://aryaplaza.in/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business" />
+<meta property="og:title" content="Arya Plaza — Premium Commercial & Residential Spaces, Munger" />
+<meta property="og:description" content="7 direct-owner commercial units at J.P. Chowk, Purabsarai Road, Munger. Zero brokerage. Managed with Arya Spaces — a fully digital leasing system." />
+<meta property="og:image" content="assets/arya-plaza-logo.png" />
+<meta property="og:locale" content="en_IN" />
+<meta property="og:site_name" content="Arya Plaza" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Arya Plaza — Premium Commercial & Residential Spaces, Munger" />
+<meta name="twitter:description" content="Direct-owner commercial leasing at J.P. Chowk, Munger — zero brokerage, fully digital rent management." />
+<meta name="twitter:image" content="assets/arya-plaza-logo.png" />
+
+<!-- Structured data: LocalBusiness / RealEstateAgent -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Arya Plaza",
+  "image": "assets/arya-plaza-logo.png",
+  "description": "Direct-owner commercial and residential leasing at J.P. Chowk, Purabsarai Road, Munger, Bihar. Zero brokerage, managed with a fully digital leasing system.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "J.P. Chowk, Purabsarai Road",
+    "addressLocality": "Munger",
+    "addressRegion": "Bihar",
+    "postalCode": "811201",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.3765391,
+    "longitude": 86.4761488
+  },
+  "areaServed": ["Munger", "Purabsarai", "Belan Bazar", "Lallu Pokhar"],
+  "priceRange": "₹₹"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#0A0F0E',
+          inkLight: '#0F1816',
+          inkCard: '#122120',
+          teal: { deep: '#0F3D3E', DEFAULT: '#1C6B6D', bright: '#2DD4BF' },
+          gold: { DEFAULT: '#D4AF37', soft: '#E8C766', deep: '#A9841F' },
+          ivory: '#F1EDE4',
+          stone: '#93A3A1',
+        },
+        fontFamily: {
+          display: ['"Space Grotesk"', 'sans-serif'],
+          body: ['"Inter"', 'sans-serif'],
+          mono: ['"IBM Plex Mono"', 'monospace'],
+        },
+        boxShadow: {
+          gold: '0 0 40px -8px rgba(212,175,55,0.35)',
+          teal: '0 0 40px -8px rgba(45,212,191,0.25)',
+        },
+      },
+    },
+  };
+</script>
+
+<style>
+  html { scroll-behavior: smooth; }
+  body { background-color: #0A0F0E; }
+
+  .bg-dot-grid {
+    background-image: radial-gradient(rgba(241,237,228,0.06) 1px, transparent 1px);
+    background-size: 26px 26px;
+  }
+  .glow-teal { background: radial-gradient(circle, rgba(45,212,191,0.20) 0%, rgba(45,212,191,0) 70%); }
+  .glow-gold { background: radial-gradient(circle, rgba(212,175,55,0.18) 0%, rgba(212,175,55,0) 70%); }
+
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.in-view { opacity: 1; transform: translateY(0); }
+  .reveal-delay-1 { transition-delay: 0.1s; }
+  .reveal-delay-2 { transition-delay: 0.2s; }
+  .reveal-delay-3 { transition-delay: 0.3s; }
+
+  @keyframes floaty { 0%,100% { transform: translateY(0px) rotateY(-8deg) rotateX(4deg); } 50% { transform: translateY(-18px) rotateY(-8deg) rotateX(4deg); } }
+  .float-phone { animation: floaty 6s ease-in-out infinite; transform-style: preserve-3d; }
+
+  @keyframes pulse-dot { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+  .pulse-dot { animation: pulse-dot 1.8s ease-in-out infinite; }
+
+  .card-tilt { transition: transform 0.4s ease, box-shadow 0.4s ease; }
+  .card-tilt:hover { transform: translateY(-6px) rotateX(2deg); }
+
+  ::selection { background: #D4AF37; color: #0A0F0E; }
+
+  .brand-underline { position: relative; }
+  .brand-underline::after {
+    content: ''; position: absolute; left: 0; bottom: -6px; height: 3px; width: 46px;
+    background: linear-gradient(90deg, #D4AF37, #2DD4BF); border-radius: 2px;
+  }
+
+  .nav-blur { backdrop-filter: blur(14px); background: rgba(10,15,14,0.72); }
+
+  .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+  .accordion-open .accordion-content { max-height: 300px; }
+  .accordion-chevron { transition: transform 0.3s ease; }
+  .accordion-open .accordion-chevron { transform: rotate(180deg); }
+
+  .tab-btn.active { background-color: #D4AF37; color: #0A0F0E; }
+</style>
+</head>
+
+<body class="bg-ink text-ivory font-body antialiased">
+
+<!-- ============ NAV ============ -->
+<header id="siteNav" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 flex items-center justify-between h-20">
+    <a href="#top" class="flex items-center gap-3">
+      <img src="assets/arya-plaza-logo.png" alt="Arya Plaza logo" class="h-11 w-11 object-contain" />
+      <span class="font-display font-semibold tracking-wide text-lg text-ivory">ARYA <span class="text-gold">PLAZA</span></span>
+    </a>
+    <nav class="hidden lg:flex items-center gap-9 font-medium text-sm text-stone">
+      <a href="#property" class="hover:text-gold transition-colors">Property</a>
+      <a href="#spaces" class="hover:text-gold transition-colors">Spaces</a>
+      <a href="#software" class="hover:text-gold transition-colors">Software</a>
+      <a href="#location" class="hover:text-gold transition-colors">Location</a>
+      <a href="#faq" class="hover:text-gold transition-colors">FAQ</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="#contact" class="hidden sm:inline-flex items-center gap-2 bg-gold hover:bg-gold-soft text-ink font-semibold text-sm px-5 py-2.5 rounded-full transition-colors shadow-gold">
+        Enquire Now
+      </a>
+      <button id="menuBtn" class="lg:hidden text-ivory p-2" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="hidden lg:hidden bg-inkLight border-t border-white/10 px-5 py-6 flex flex-col gap-5 text-stone font-medium">
+    <a href="#property" class="hover:text-gold">Property</a>
+    <a href="#spaces" class="hover:text-gold">Spaces</a>
+    <a href="#software" class="hover:text-gold">Software</a>
+    <a href="#location" class="hover:text-gold">Location</a>
+    <a href="#faq" class="hover:text-gold">FAQ</a>
+    <a href="#contact" class="inline-flex justify-center bg-gold text-ink font-semibold px-5 py-2.5 rounded-full">Enquire Now</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="top" class="relative pt-40 pb-28 lg:pt-48 lg:pb-36 overflow-hidden bg-dot-grid">
+  <div class="absolute -top-40 -left-40 w-[32rem] h-[32rem] glow-teal rounded-full"></div>
+  <div class="absolute top-20 -right-32 w-[28rem] h-[28rem] glow-gold rounded-full"></div>
+
+  <div class="relative max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-16 items-center">
+    <div class="reveal in-view">
+      <span class="inline-flex items-center gap-2 border border-gold/30 text-gold text-xs font-mono tracking-wider px-4 py-1.5 rounded-full mb-6">
+        <span class="h-1.5 w-1.5 rounded-full bg-gold pulse-dot"></span> J.P. CHOWK · PURABSARAI ROAD · MUNGER
+      </span>
+      <h1 class="font-display font-semibold text-4xl sm:text-5xl lg:text-6xl leading-[1.08] text-ivory">
+        Munger's most <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-bright to-gold">transparent</span> commercial address.
+      </h1>
+      <p class="mt-6 text-stone text-lg max-w-xl leading-relaxed">
+        Seven direct-owner retail units on a dual-road frontage at J.P. Chowk — no brokerage, no middlemen, and every rupee of rent tracked on a live digital ledger built specifically for this property.
+      </p>
+      <div class="mt-9 flex flex-wrap gap-4">
+        <a href="#spaces" class="inline-flex items-center gap-2 bg-gold hover:bg-gold-soft text-ink font-semibold px-7 py-3.5 rounded-full transition-colors shadow-gold">
+          Explore Spaces
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+        </a>
+        <a href="#software" class="inline-flex items-center gap-2 border border-white/15 hover:border-teal-bright/60 text-ivory font-semibold px-7 py-3.5 rounded-full transition-colors">
+          See the Software
+        </a>
+      </div>
+
+      <div class="mt-14 grid grid-cols-3 gap-6 max-w-md">
+        <div>
+          <div class="font-display font-semibold text-3xl text-ivory counter" data-target="7">0</div>
+          <div class="text-xs text-stone mt-1 tracking-wide">Commercial Units</div>
+        </div>
+        <div>
+          <div class="font-display font-semibold text-3xl text-ivory">0<span class="text-gold">%</span></div>
+          <div class="text-xs text-stone mt-1 tracking-wide">Brokerage, Ever</div>
+        </div>
+        <div>
+          <div class="font-display font-semibold text-3xl text-ivory">2</div>
+          <div class="text-xs text-stone mt-1 tracking-wide">Road Access Points</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signature element: floating 3D phone mockup with a live-feeling dashboard -->
+    <div class="reveal reveal-delay-2 in-view flex justify-center lg:justify-end" style="perspective:1200px;">
+      <div class="float-phone w-[280px] sm:w-[320px] rounded-[2.5rem] border-4 border-inkCard bg-gradient-to-b from-inkCard to-ink shadow-2xl shadow-black/60 p-3 relative">
+        <div class="absolute -top-3 left-1/2 -translate-x-1/2 w-24 h-5 bg-inkCard rounded-b-xl"></div>
+        <div class="rounded-[2rem] bg-inkLight overflow-hidden">
+          <div class="px-5 pt-8 pb-5 border-b border-white/5">
+            <p class="text-[10px] text-stone font-mono tracking-widest">ARYA SPACES · ADMIN</p>
+            <p class="font-display font-semibold text-ivory mt-1">This Month</p>
+          </div>
+          <div class="px-5 py-5 space-y-4">
+            <div class="flex items-center justify-between bg-white/5 rounded-xl px-4 py-3">
+              <span class="text-xs text-stone">Collected</span>
+              <span class="font-mono text-teal-bright font-medium">₹1,86,000</span>
+            </div>
+            <div class="flex items-center justify-between bg-white/5 rounded-xl px-4 py-3">
+              <span class="text-xs text-stone">Pending</span>
+              <span class="font-mono text-gold font-medium">₹12,000</span>
+            </div>
+            <div class="flex items-center justify-between bg-white/5 rounded-xl px-4 py-3">
+              <span class="text-xs text-stone flex items-center gap-1.5"><span class="h-1.5 w-1.5 rounded-full bg-teal-bright pulse-dot"></span>Occupancy</span>
+              <span class="font-mono text-ivory font-medium">7 / 7</span>
+            </div>
+            <div class="pt-2">
+              <div class="text-[10px] text-stone mb-2 font-mono">SHOP 3 · CONFIRMED</div>
+              <div class="h-2 rounded-full bg-white/5 overflow-hidden"><div class="h-full w-full bg-gradient-to-r from-teal-bright to-gold rounded-full"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden sm:block absolute mt-64 ml-64 bg-inkCard border border-white/10 rounded-2xl px-4 py-3 shadow-xl reveal reveal-delay-3 in-view">
+        <p class="text-xs text-stone">Powered by</p>
+        <p class="font-display text-sm font-semibold text-gold">Arya Spaces</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<section class="border-y border-white/5 bg-inkLight/60">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 py-8 grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+    <div class="reveal in-view"><p class="font-display text-lg text-ivory">Direct Owner Leasing</p><p class="text-xs text-stone mt-1">No brokerage, ever</p></div>
+    <div class="reveal reveal-delay-1 in-view"><p class="font-display text-lg text-ivory">Dual-Road Frontage</p><p class="text-xs text-stone mt-1">Front & back road access</p></div>
+    <div class="reveal reveal-delay-2 in-view"><p class="font-display text-lg text-ivory">Digital Rent Ledger</p><p class="text-xs text-stone mt-1">Every payment, tracked live</p></div>
+    <div class="reveal reveal-delay-3 in-view"><p class="font-display text-lg text-ivory">Prime J.P. Chowk</p><p class="text-xs text-stone mt-1">Munger's established market hub</p></div>
+  </div>
+</section>
+
+<!-- ============ PROPERTY ============ -->
+<section id="property" class="py-24 lg:py-32">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-16 items-center">
+    <div class="reveal">
+      <div class="grid grid-cols-5 gap-4">
+        <img src="assets/building-photo-1.png" alt="Arya Plaza building, J.P. Chowk, Munger" class="col-span-3 rounded-2xl border border-white/10 shadow-2xl shadow-black/50 object-cover h-full card-tilt" />
+        <img src="assets/building-photo-2.png" alt="Arya Plaza street-level shops, Munger" class="col-span-2 rounded-2xl border border-white/10 shadow-2xl shadow-black/50 object-cover h-full mt-10 card-tilt" />
+      </div>
+    </div>
+    <div class="reveal reveal-delay-1">
+      <span class="text-gold font-mono text-xs tracking-widest">THE PROPERTY</span>
+      <h2 class="font-display font-semibold text-3xl sm:text-4xl mt-3 brand-underline inline-block pb-2">A Munger landmark, run differently</h2>
+      <p class="mt-8 text-stone leading-relaxed">
+        Arya Plaza sits on an 80-foot stretch of Purabsarai Road at J.P. Chowk — one of Munger's most established commercial lanes, with shops, stores, and offices running on both sides. The ground floor is fully commercial: seven units, each with genuine street frontage and daily footfall.
+      </p>
+      <p class="mt-4 text-stone leading-relaxed">
+        What sets it apart isn't the address alone — it's how it's run. Every deal, every rupee, every rent revision is tracked on <strong class="text-ivory">Arya Spaces</strong>, a purpose-built digital ledger, so tenants and the owner see the exact same numbers, always.
+      </p>
+      <ul class="mt-8 space-y-4">
+        <li class="flex items-start gap-3"><svg class="h-5 w-5 text-teal-bright mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg><span class="text-ivory/90">Front-road and back-road access on the same property</span></li>
+        <li class="flex items-start gap-3"><svg class="h-5 w-5 text-teal-bright mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg><span class="text-ivory/90">Dedicated storage and loft space in every unit</span></li>
+        <li class="flex items-start gap-3"><svg class="h-5 w-5 text-teal-bright mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" /></svg><span class="text-ivory/90">Residential floor in development — 2BHK units coming soon</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPACES ============ -->
+<section id="spaces" class="py-24 lg:py-32 bg-inkLight/40 border-y border-white/5">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div class="text-center max-w-2xl mx-auto reveal">
+      <span class="text-gold font-mono text-xs tracking-widest">AVAILABLE SPACES</span>
+      <h2 class="font-display font-semibold text-3xl sm:text-4xl mt-3">Built for business, priced by the owner</h2>
+    </div>
+
+    <div class="flex justify-center gap-3 mt-10 reveal reveal-delay-1">
+      <button class="tab-btn active font-medium text-sm px-6 py-2.5 rounded-full border border-white/10 transition-colors" data-tab="commercial">Commercial</button>
+      <button class="tab-btn font-medium text-sm px-6 py-2.5 rounded-full border border-white/10 text-stone transition-colors" data-tab="residential">Residential</button>
+    </div>
+
+    <div id="tab-commercial" class="tab-panel mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="reveal card-tilt bg-inkCard border border-white/10 rounded-2xl p-7 hover:border-gold/40">
+        <svg class="h-9 w-9 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path stroke-linecap="round" stroke-linejoin="round" d="M3 9.75L12 3l9 6.75V21a1 1 0 01-1 1H4a1 1 0 01-1-1V9.75z"/></svg>
+        <h3 class="font-display font-semibold text-lg mt-4 text-ivory">Ground Floor Shops</h3>
+        <p class="text-sm text-stone mt-2 leading-relaxed">Street-facing units with full shutter frontage — suited to retail, showrooms, or a branded storefront.</p>
+      </div>
+      <div class="reveal reveal-delay-1 card-tilt bg-inkCard border border-white/10 rounded-2xl p-7 hover:border-gold/40">
+        <svg class="h-9 w-9 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4h16v4H4zM4 10h16v10H4zM9 14h6"/></svg>
+        <h3 class="font-display font-semibold text-lg mt-4 text-ivory">Corner Unit — Dual Access</h3>
+        <p class="text-sm text-stone mt-2 leading-relaxed">Reachable from both the front and back road — ideal for pharmacies, electronics, or a small office.</p>
+      </div>
+      <div class="reveal reveal-delay-2 card-tilt bg-inkCard border border-white/10 rounded-2xl p-7 hover:border-gold/40">
+        <svg class="h-9 w-9 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+        <h3 class="font-display font-semibold text-lg mt-4 text-ivory">Storage & Loft Units</h3>
+        <p class="text-sm text-stone mt-2 leading-relaxed">Extra depth with dedicated loft storage — built for stock-heavy businesses.</p>
+      </div>
+    </div>
+
+    <div id="tab-residential" class="tab-panel hidden mt-14">
+      <div class="max-w-2xl mx-auto text-center bg-inkCard border border-dashed border-white/15 rounded-2xl p-12 reveal">
+        <svg class="h-10 w-10 text-teal-bright mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        <h3 class="font-display font-semibold text-xl mt-4 text-ivory">First-Floor 2BHK — Coming Soon</h3>
+        <p class="text-sm text-stone mt-3 leading-relaxed">A dedicated residential floor is in development above the commercial ground floor — register your interest and we'll reach out the moment it's ready.</p>
+        <a href="#contact" class="inline-block mt-6 text-gold font-semibold text-sm hover:underline">Register interest →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOFTWARE ============ -->
+<section id="software" class="py-24 lg:py-32">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    <div class="text-center max-w-2xl mx-auto reveal">
+      <span class="text-gold font-mono text-xs tracking-widest">THE ARYA SPACES SYSTEM</span>
+      <h2 class="font-display font-semibold text-3xl sm:text-4xl mt-3">A landlord's word, backed by software</h2>
+      <p class="text-stone mt-5 leading-relaxed">Every deal at Arya Plaza runs on a purpose-built two-app system — one for the owner, one for tenants — so rent, deposits, and every rupee stay transparent to both sides.</p>
+    </div>
+
+    <div class="mt-16 grid lg:grid-cols-2 gap-10">
+      <!-- Admin app card -->
+      <div class="reveal bg-inkCard border border-white/10 rounded-3xl p-8 card-tilt">
+        <div class="flex items-center gap-3">
+          <span class="h-10 w-10 rounded-xl bg-gold/15 flex items-center justify-center">
+            <svg class="h-5 w-5 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17V7a2 2 0 012-2h2a2 2 0 012 2v10M4 21h16M6 21V11a2 2 0 012-2h1m9 12V11a2 2 0 00-2-2h-1"/></svg>
+          </span>
+          <h3 class="font-display font-semibold text-xl text-ivory">Owner Console</h3>
+        </div>
+        <p class="text-sm text-stone mt-4 leading-relaxed">Live dashboard, per-tenant ledgers, one-tap payment confirmation, and full deal history — built for how a real Munger landlord actually works.</p>
+
+        <!-- screenshot placeholder frame -->
+        <div class="mt-6 rounded-2xl border border-dashed border-white/15 bg-white/[0.03] aspect-[9/16] max-w-[220px] mx-auto flex flex-col items-center justify-center gap-2 text-stone">
+          <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.4"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14M14 8h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          <span class="text-xs font-mono">Admin app screenshot — coming soon</span>
+        </div>
+
+        <ul class="mt-6 space-y-2.5 text-sm text-ivory/90">
+          <li class="flex gap-2"><span class="text-teal-bright">•</span>Real-time collection & pending dashboard</li>
+          <li class="flex gap-2"><span class="text-teal-bright">•</span>Flexible rent schedules & advance tracking</li>
+          <li class="flex gap-2"><span class="text-teal-bright">•</span>Digital agreements, per tenant</li>
+        </ul>
+      </div>
+
+      <!-- Renter app card -->
+      <div class="reveal reveal-delay-1 bg-inkCard border border-white/10 rounded-3xl p-8 card-tilt">
+        <div class="flex items-center gap-3">
+          <span class="h-10 w-10 rounded-xl bg-teal-bright/15 flex items-center justify-center">
+            <svg class="h-5 w-5 text-teal-bright" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+          </span>
+          <h3 class="font-display font-semibold text-xl text-ivory">Tenant App</h3>
+        </div>
+        <p class="text-sm text-stone mt-4 leading-relaxed">See exactly what you owe, report a payment in seconds, and keep your full rent history and agreement in your pocket — always.</p>
+
+        <div class="mt-6 rounded-2xl border border-dashed border-white/15 bg-white/[0.03] aspect-[9/16] max-w-[220px] mx-auto flex flex-col items-center justify-center gap-2 text-stone">
+          <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.4"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14M14 8h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          <span class="text-xs font-mono">Tenant app screenshot — coming soon</span>
+        </div>
+
+        <ul class="mt-6 space-y-2.5 text-sm text-ivory/90">
+          <li class="flex gap-2"><span class="text-gold">•</span>This month's rent, always up to date</li>
+          <li class="flex gap-2"><span class="text-gold">•</span>Report a payment, full or partial</li>
+          <li class="flex gap-2"><span class="text-gold">•</span>Secure — phone + password + PIN</li>
+        </ul>
+
+        <a href="https://github.com/aryanony/arya-spaces-releases/releases/download/renter-v1.0.0/app-release.apk"
+           class="mt-8 w-full inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-soft text-ink font-semibold px-6 py-3.5 rounded-full transition-colors shadow-gold">
+          <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+          Download Tenant App (Android)
+        </a>
+        <p class="text-[11px] text-stone text-center mt-3">Direct APK download — not on the Play Store. Your device may ask you to allow installs from this source once.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATION ============ -->
+<section id="location" class="py-24 lg:py-32 bg-inkLight/40 border-y border-white/5">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-5 gap-10 items-start">
+    <div class="lg:col-span-2 reveal">
+      <span class="text-gold font-mono text-xs tracking-widest">FIND US</span>
+      <h2 class="font-display font-semibold text-3xl mt-3">Right at J.P. Chowk</h2>
+      <p class="text-stone mt-5 leading-relaxed">Arya Plaza, J.P. Chowk, Purabsarai Road, Munger, Bihar 811201</p>
+      <div class="mt-8 space-y-4">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Arya%20Plaza%2C%20J.P.%20Chowk%2C%20Purabsarai%20Road%2C%20Munger%2C%20Bihar%20811201"
+           target="_blank" rel="noopener"
+           class="inline-flex items-center gap-2 bg-gold hover:bg-gold-soft text-ink font-semibold px-6 py-3 rounded-full transition-colors shadow-gold">
+          Get Directions
+        </a>
+        <p class="text-xs text-stone font-mono">Serving Munger · Purabsarai · Belan Bazar · Lallu Pokhar</p>
+      </div>
+    </div>
+    <div class="lg:col-span-3 reveal reveal-delay-1">
+      <div class="rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-black/50">
+        <iframe
+          src="https://maps.google.com/maps?q=25.3765391,86.4761488&z=18&output=embed"
+          class="w-full h-[420px]"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Arya Plaza location map">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="faq" class="py-24 lg:py-32">
+  <div class="max-w-3xl mx-auto px-5 sm:px-8">
+    <div class="text-center reveal">
+      <span class="text-gold font-mono text-xs tracking-widest">GOOD TO KNOW</span>
+      <h2 class="font-display font-semibold text-3xl sm:text-4xl mt-3">Frequently asked questions</h2>
+    </div>
+
+    <div class="mt-14 space-y-4" id="faqList">
+      <div class="faq-item reveal border border-white/10 rounded-2xl bg-inkCard overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between text-left px-6 py-5 font-medium text-ivory">
+          Is any brokerage charged at Arya Plaza?
+          <svg class="accordion-chevron h-5 w-5 text-gold flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div class="accordion-content px-6"><p class="text-sm text-stone pb-5 leading-relaxed">No. Every unit at Arya Plaza is leased directly by the owner — there is no brokerage at any stage.</p></div>
+      </div>
+
+      <div class="faq-item reveal border border-white/10 rounded-2xl bg-inkCard overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between text-left px-6 py-5 font-medium text-ivory">
+          How do I pay rent and track my deal?
+          <svg class="accordion-chevron h-5 w-5 text-gold flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div class="accordion-content px-6"><p class="text-sm text-stone pb-5 leading-relaxed">Every tenant gets a login to the Arya Spaces Tenant App, where you can see exactly what's due, report a payment, and view your full history and agreement at any time.</p></div>
+      </div>
+
+      <div class="faq-item reveal border border-white/10 rounded-2xl bg-inkCard overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between text-left px-6 py-5 font-medium text-ivory">
+          Are residential units available yet?
+          <svg class="accordion-chevron h-5 w-5 text-gold flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div class="accordion-content px-6"><p class="text-sm text-stone pb-5 leading-relaxed">Not yet — a first-floor 2BHK residential space is in development. Register your interest via the contact section and we'll reach out once it's ready.</p></div>
+      </div>
+
+      <div class="faq-item reveal border border-white/10 rounded-2xl bg-inkCard overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between text-left px-6 py-5 font-medium text-ivory">
+          What do I need to lease a shop here?
+          <svg class="accordion-chevron h-5 w-5 text-gold flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div class="accordion-content px-6"><p class="text-sm text-stone pb-5 leading-relaxed">Get in touch via the contact section below for a site visit — deal terms, advance, and rent are agreed directly with the owner, and your signed agreement is kept on file in the app.</p></div>
+      </div>
+
+      <div class="faq-item reveal border border-white/10 rounded-2xl bg-inkCard overflow-hidden">
+        <button class="faq-trigger w-full flex items-center justify-between text-left px-6 py-5 font-medium text-ivory">
+          Where exactly is Arya Plaza located?
+          <svg class="accordion-chevron h-5 w-5 text-gold flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+        </button>
+        <div class="accordion-content px-6"><p class="text-sm text-stone pb-5 leading-relaxed">J.P. Chowk, Purabsarai Road, Munger, Bihar 811201 — on an established market lane with shops on both sides and dual-road access.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"Is any brokerage charged at Arya Plaza?","acceptedAnswer":{"@type":"Answer","text":"No. Every unit at Arya Plaza is leased directly by the owner — there is no brokerage at any stage."}},
+    {"@type":"Question","name":"How do I pay rent and track my deal?","acceptedAnswer":{"@type":"Answer","text":"Every tenant gets a login to the Arya Spaces Tenant App, where you can see exactly what's due, report a payment, and view your full history and agreement at any time."}},
+    {"@type":"Question","name":"Are residential units available yet?","acceptedAnswer":{"@type":"Answer","text":"Not yet — a first-floor 2BHK residential space is in development."}},
+    {"@type":"Question","name":"What do I need to lease a shop here?","acceptedAnswer":{"@type":"Answer","text":"Get in touch for a site visit — deal terms, advance, and rent are agreed directly with the owner."}},
+    {"@type":"Question","name":"Where exactly is Arya Plaza located?","acceptedAnswer":{"@type":"Answer","text":"J.P. Chowk, Purabsarai Road, Munger, Bihar 811201."}}
+  ]
+}
+</script>
+
+<!-- ============ CONTACT / CTA ============ -->
+<section id="contact" class="py-24 lg:py-32 relative overflow-hidden">
+  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[40rem] h-[40rem] glow-gold rounded-full"></div>
+  <div class="relative max-w-3xl mx-auto px-5 sm:px-8 text-center reveal">
+    <h2 class="font-display font-semibold text-3xl sm:text-4xl">Come see it for yourself</h2>
+    <p class="text-stone mt-5 leading-relaxed">Book a site visit at J.P. Chowk, or reach out directly — no brokers, no waiting.</p>
+    <div class="mt-9 flex flex-wrap justify-center gap-4">
+      <a href="https://wa.me/91XXXXXXXXXX" class="inline-flex items-center gap-2 bg-gold hover:bg-gold-soft text-ink font-semibold px-7 py-3.5 rounded-full transition-colors shadow-gold">
+        <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.486 2 2 6.486 2 12.004c0 1.858.503 3.673 1.457 5.264L2 22l4.859-1.435A9.955 9.955 0 0012.004 22C17.522 22 22 17.522 22 12.004 22 6.486 17.522 2 12.004 2zm0 18.11a8.09 8.09 0 01-4.13-1.13l-.296-.176-3.06.904.917-2.985-.192-.306a8.093 8.093 0 01-1.24-4.31c0-4.48 3.646-8.126 8.127-8.126 4.48 0 8.126 3.646 8.126 8.126 0 4.481-3.646 8.127-8.126 8.127z"/></svg>
+        WhatsApp Us
+      </a>
+      <a href="tel:+91XXXXXXXXXX" class="inline-flex items-center gap-2 border border-white/15 hover:border-teal-bright/60 text-ivory font-semibold px-7 py-3.5 rounded-full transition-colors">
+        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+        Call the Owner
+      </a>
+    </div>
+    <p class="text-[11px] text-stone mt-6 font-mono">Replace the placeholder number above with your real WhatsApp/call number before publishing.</p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="border-t border-white/5 py-14">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 flex flex-col md:flex-row justify-between gap-10">
+    <div class="max-w-sm">
+      <div class="flex items-center gap-3">
+        <img src="assets/arya-plaza-logo.png" alt="Arya Plaza" class="h-9 w-9 object-contain" />
+        <span class="font-display font-semibold text-ivory">ARYA <span class="text-gold">PLAZA</span></span>
+      </div>
+      <p class="text-sm text-stone mt-4 leading-relaxed">J.P. Chowk, Purabsarai Road, Munger, Bihar 811201 — direct-owner commercial and residential leasing, managed on Arya Spaces.</p>
+    </div>
+    <div class="grid grid-cols-2 gap-10 text-sm">
+      <div>
+        <p class="text-ivory font-medium mb-3">Explore</p>
+        <ul class="space-y-2 text-stone">
+          <li><a href="#property" class="hover:text-gold">Property</a></li>
+          <li><a href="#spaces" class="hover:text-gold">Spaces</a></li>
+          <li><a href="#software" class="hover:text-gold">Software</a></li>
+          <li><a href="#location" class="hover:text-gold">Location</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-ivory font-medium mb-3">Get in touch</p>
+        <ul class="space-y-2 text-stone">
+          <li><a href="#contact" class="hover:text-gold">Enquire</a></li>
+          <li><a href="#faq" class="hover:text-gold">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between gap-3 text-xs text-stone">
+    <p>© <span id="year"></span> Arya Plaza, Munger. All rights reserved.</p>
+    <p>Powered by <span class="text-gold">Arya Spaces</span> — digital leasing management.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Nav blur on scroll
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 40) nav.classList.add('nav-blur'); else nav.classList.remove('nav-blur');
+  });
+
+  // Mobile menu
+  const menuBtn = document.getElementById('menuBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in-view'); });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  // Counter animation
+  const counters = document.querySelectorAll('.counter');
+  const counterIO = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.dataset.target, 10);
+        let cur = 0;
+        const step = Math.max(1, Math.ceil(target / 30));
+        const t = setInterval(() => {
+          cur += step;
+          if (cur >= target) { cur = target; clearInterval(t); }
+          el.textContent = cur;
+        }, 40);
+        counterIO.unobserve(el);
+      }
+    });
+  }, { threshold: 0.5 });
+  counters.forEach(c => counterIO.observe(c));
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-item').forEach(item => {
+    item.querySelector('.faq-trigger').addEventListener('click', () => {
+      const isOpen = item.classList.contains('accordion-open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('accordion-open'));
+      if (!isOpen) item.classList.add('accordion-open');
+    });
+  });
+
+  // Spaces tabs
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.add('hidden'));
+      document.getElementById('tab-' + btn.dataset.tab).classList.remove('hidden');
+    });
+  });
+</script>
+
+</body>
+</html>
