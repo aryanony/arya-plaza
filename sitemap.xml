@@ -1,38 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://aryaplaza.vercel.app/</loc>
-<priority>1.0</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://aryaplaza.vercel.app/#property</loc>
-<priority>0.8</priority>
-<changefreq>monthly</changefreq>
-</url>
-<url>
-<loc>https://aryaplaza.vercel.app/#spaces</loc>
-<priority>0.9</priority>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://aryaplaza.vercel.app/#gallery</loc>
-<priority>0.6</priority>
-<changefreq>monthly</changefreq>
-</url>
-<url>
-<loc>https://aryaplaza.vercel.app/#software</loc>
-<priority>0.7</priority>
-<changefreq>monthly</changefreq>
-</url>
-<url>
-<loc>https://aryaplaza.vercel.app/#location</loc>
-<priority>0.7</priority>
-<changefreq>monthly</changefreq>
-</url>
-<url>
-<loc>https://aryaplaza.vercel.app/#faq</loc>
-<priority>0.6</priority>
-<changefreq>monthly</changefreq>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://aryaplaza.vercel.app/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://aryaplaza.vercel.app/assets/AryaPlaza.png</image:loc>
+      <image:title>Arya Plaza Commercial Shops &amp; Office Spaces for Rent in Munger</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://aryaplaza.vercel.app/assets/arya-plaza-storefront.jpg</image:loc>
+      <image:title>Arya Plaza Storefront, J.P. Chowk, Munger</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://aryaplaza.vercel.app/assets/arya-plaza-banner.jpg</image:loc>
+      <image:title>Arya Plaza Prime Retail Commercial Spaces</image:title>
+    </image:image>
+  </url>
 </urlset>
