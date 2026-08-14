@@ -1489,9 +1489,30 @@
       });
     }
 
-    const revealEls = document.querySelectorAll('.reveal');
-    const io = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in-view'); }); }, { threshold: 0.15 });
-    revealEls.forEach(el => io.observe(el));
+    // Robust Scroll & Viewport Reveal Observer with Fallback
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in-view');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.01, rootMargin: '0px 0px 120px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    function checkVisibleReveals() {
+      const vh = window.innerHeight;
+      document.querySelectorAll('.reveal:not(.in-view)').forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top <= vh * 0.95 && rect.bottom >= 0) {
+          el.classList.add('in-view');
+        }
+      });
+    }
+    window.addEventListener('scroll', checkVisibleReveals, { passive: true });
+    window.addEventListener('resize', checkVisibleReveals, { passive: true });
+    setTimeout(checkVisibleReveals, 100);
+    setTimeout(checkVisibleReveals, 500);
 
     const counters = document.querySelectorAll('.counter');
     const counterIO = new IntersectionObserver((entries) => {
@@ -1541,6 +1562,7 @@
         const isOpen = div.classList.contains('accordion-open');
         document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('accordion-open'));
         if (!isOpen) div.classList.add('accordion-open');
+      });
     });
 
     // ---------- Screenshot Carousels & Interactive Lightbox Modal ----------
