@@ -1,9 +1,12 @@
 {
+  "id": "https://aryaplaza.vercel.app/",
   "name": "Arya Plaza",
   "short_name": "Arya Plaza",
   "description": "Commercial shops, showrooms and office spaces for rent at J.P. Chowk, Purabsarai Road, Munger, Bihar 811201.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#0A0F0E",
   "theme_color": "#0A0F0E",
   "icons": [
