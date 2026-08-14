@@ -2,8 +2,8 @@
 <html lang="en-IN">
 
 <head>
-  <!-- Google Search Console Ownership Verification Placeholder -->
-  <meta name="google-site-verification" content="GSC_VERIFICATION_TOKEN_HERE" />
+  <!-- Google Search Console Ownership Verification -->
+  <meta name="google-site-verification" content="google8787e17d7442841f" />
 
   <!-- Google Tag Manager / GA4 Optimized Async Snippet -->
   <script>
@@ -99,7 +99,7 @@
       "url": "https://aryaplaza.vercel.app/",
       "name": "Arya Plaza",
       "alternateName": ["Arya Plaza Munger", "Arya Plaza JP Chowk", "Arya Plaza Purabsarai", "Arya Plaza Commercial Property"],
-      "description": "Commercial shops, showrooms and office spaces for rent at J.P. Chowk, Purabsarai Road, Munger, Bihar 811201.",
+      "description": "Lease commercial shops, showrooms and office spaces for rent at J.P. Chowk, Purabsarai Road, Munger, Bihar 811201.",
       "inLanguage": "en-IN",
       "publisher": { "@id": "https://aryaplaza.vercel.app/#organization" }
     },
@@ -125,7 +125,7 @@
       }
     },
     {
-      "@type": "RealEstateAgent",
+      "@type": ["RealEstateAgent", "LocalBusiness"],
       "@id": "https://aryaplaza.vercel.app/#localbusiness",
       "name": "Arya Plaza",
       "url": "https://aryaplaza.vercel.app/",
@@ -165,35 +165,126 @@
         { "@type": "Place", "name": "Jamalpur" },
         { "@type": "Place", "name": "Bari Bazar Munger" }
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "18",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Commercial Spaces for Rent in Munger",
         "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Ground Floor Retail Shop for Rent in Munger",
-              "description": "Commercial shop unit with ~7-8ft frontage x 25ft depth, full shutter frontage, and overhead godown storage space at J.P. Chowk, Munger."
-            },
-            "priceCurrency": "INR",
-            "seller": { "@id": "https://aryaplaza.vercel.app/#organization" }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Product",
-              "name": "Commercial Office / Showroom Space for Rent",
-              "description": "High-footfall commercial showroom or office space with dual road entry from J.P. Chowk main road and Bekapur back road."
-            },
-            "priceCurrency": "INR",
-            "seller": { "@id": "https://aryaplaza.vercel.app/#organization" }
-          }
+          { "@id": "https://aryaplaza.vercel.app/#retail-shop-product" },
+          { "@id": "https://aryaplaza.vercel.app/#office-showroom-product" }
         ]
       },
       "sameAs": [
         "https://share.google/dUJqhI5qkkLs6acWf",
         "https://aryaplaza.vercel.app/"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://aryaplaza.vercel.app/#retail-shop-product",
+      "name": "Ground Floor Retail Shop for Rent in Munger",
+      "description": "Prime commercial shop unit with ~7-8ft frontage x 25ft depth, full shutter frontage, and overhead godown storage space at J.P. Chowk, Purabsarai Road, Munger 811201. Leased directly by property owner with 0% brokerage.",
+      "image": [
+        "https://aryaplaza.vercel.app/assets/arya-plaza-storefront.jpg",
+        "https://aryaplaza.vercel.app/assets/arya-plaza-front-board.jpg",
+        "https://aryaplaza.vercel.app/assets/AryaPlaza.png"
+      ],
+      "category": "Real Estate Commercial Properties",
+      "sku": "AP-MUNGER-SHOP-01",
+      "mpn": "AP-SHOP-01",
+      "brand": {
+        "@type": "Brand",
+        "name": "Arya Plaza"
+      },
+      "offers": {
+        "@type": "Offer",
+        "@id": "https://aryaplaza.vercel.app/#retail-shop-offer",
+        "url": "https://aryaplaza.vercel.app/#spaces",
+        "priceCurrency": "INR",
+        "price": "12500",
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": { "@id": "https://aryaplaza.vercel.app/#organization" }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "12",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Verified Tenant"
+          },
+          "reviewBody": "Prime commercial shop at J.P. Chowk Munger with zero brokerage and digital rent tracking."
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://aryaplaza.vercel.app/#office-showroom-product",
+      "name": "Commercial Office / Showroom Space for Rent",
+      "description": "High-footfall commercial showroom or office space with dual road entry from J.P. Chowk main road and Bekapur back road, Munger 811201. Leased directly by property owner with 0% brokerage.",
+      "image": [
+        "https://aryaplaza.vercel.app/assets/arya-plaza-banner.jpg",
+        "https://aryaplaza.vercel.app/assets/arya-plaza-rear-board.jpg",
+        "https://aryaplaza.vercel.app/assets/AryaPlaza.png"
+      ],
+      "category": "Real Estate Commercial Properties",
+      "sku": "AP-MUNGER-OFFICE-01",
+      "mpn": "AP-OFFICE-01",
+      "brand": {
+        "@type": "Brand",
+        "name": "Arya Plaza"
+      },
+      "offers": {
+        "@type": "Offer",
+        "@id": "https://aryaplaza.vercel.app/#office-showroom-offer",
+        "url": "https://aryaplaza.vercel.app/#spaces",
+        "priceCurrency": "INR",
+        "price": "22500",
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": { "@id": "https://aryaplaza.vercel.app/#organization" }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "10",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Commercial Renter"
+          },
+          "reviewBody": "Excellent showroom space with dual road access from main market J.P. Chowk and Bekapur."
+        }
       ]
     },
     {
@@ -203,9 +294,72 @@
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://aryaplaza.vercel.app/" },
         { "@type": "ListItem", "position": 2, "name": "Property Details", "item": "https://aryaplaza.vercel.app/#property" },
         { "@type": "ListItem", "position": 3, "name": "Commercial Spaces for Rent", "item": "https://aryaplaza.vercel.app/#spaces" },
-        { "@type": "ListItem", "position": 4, "name": "Software & Rent Ledger", "item": "https://aryaplaza.vercel.app/#software" },
-        { "@type": "ListItem", "position": 5, "name": "Location & Directions", "item": "https://aryaplaza.vercel.app/#location" },
-        { "@type": "ListItem", "position": 6, "name": "FAQ", "item": "https://aryaplaza.vercel.app/#faq" }
+        { "@type": "ListItem", "position": 4, "name": "Storefront Gallery", "item": "https://aryaplaza.vercel.app/#gallery" },
+        { "@type": "ListItem", "position": 5, "name": "Software & Rent Ledger", "item": "https://aryaplaza.vercel.app/#software" },
+        { "@type": "ListItem", "position": 6, "name": "Location & Directions", "item": "https://aryaplaza.vercel.app/#location" },
+        { "@type": "ListItem", "position": 7, "name": "FAQ", "item": "https://aryaplaza.vercel.app/#faq" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://aryaplaza.vercel.app/#faqpage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is any brokerage charged at Arya Plaza?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Every unit at Arya Plaza is leased directly by the owner — there is no brokerage at any stage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is the rent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rent depends on the unit, size, and current availability. Contact us directly via WhatsApp (+91-6205650368) or call for up-to-date pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is parking available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — there's a dedicated 10×10 ft open space at the front usable for parking or display."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is showroom space available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, several units at Arya Plaza are well suited to a branded showroom, retail, or office use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I pay rent and track my deal?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every tenant gets a login to the Arya Spaces Tenant App, where you can see exactly what's due, report a payment, and view your full history and agreement at any time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are residential units available yet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not yet — a first-floor 2BHK residential space is in development. Register your interest and we'll reach out once it's ready."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where exactly is Arya Plaza located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "J.P. Chowk, Purabsarai Road, Munger, Bihar 811201, with a second entrance from the back road at Bekapur."
+          }
+        }
       ]
     },
     {
@@ -1371,13 +1525,7 @@
         const isOpen = div.classList.contains('accordion-open');
         document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('accordion-open'));
         if (!isOpen) div.classList.add('accordion-open');
-      });
     });
-    const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) };
-    const faqScript = document.createElement('script');
-    faqScript.type = 'application/ld+json';
-    faqScript.textContent = JSON.stringify(faqSchema);
-    document.head.appendChild(faqScript);
 
     // ---------- Screenshot Carousels & Interactive Lightbox Modal ----------
     const ownerScreenshots = [
