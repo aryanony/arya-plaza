@@ -197,8 +197,30 @@
         "@type": "OfferCatalog",
         "name": "Commercial Spaces for Rent in Munger",
         "itemListElement": [
-          { "@id": "https://aryaplaza.vercel.app/#retail-shop-product" },
-          { "@id": "https://aryaplaza.vercel.app/#office-showroom-product" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Offer",
+              "name": "Ground Floor Retail Shop for Rent in Munger",
+              "price": "12500",
+              "priceCurrency": "INR",
+              "url": "https://aryaplaza.vercel.app/#spaces",
+              "itemOffered": { "@id": "https://aryaplaza.vercel.app/#retail-shop-product" }
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Offer",
+              "name": "Commercial Office / Showroom Space for Rent",
+              "price": "22500",
+              "priceCurrency": "INR",
+              "url": "https://aryaplaza.vercel.app/#spaces",
+              "itemOffered": { "@id": "https://aryaplaza.vercel.app/#office-showroom-product" }
+            }
+          }
         ]
       },
       "sameAs": [
@@ -225,7 +247,6 @@
       },
       "offers": {
         "@type": "Offer",
-        "@id": "https://aryaplaza.vercel.app/#retail-shop-offer",
         "url": "https://aryaplaza.vercel.app/#spaces",
         "priceCurrency": "INR",
         "price": "12500",
@@ -310,7 +331,6 @@
       },
       "offers": {
         "@type": "Offer",
-        "@id": "https://aryaplaza.vercel.app/#office-showroom-offer",
         "url": "https://aryaplaza.vercel.app/#spaces",
         "priceCurrency": "INR",
         "price": "22500",
@@ -861,7 +881,7 @@
     }
   </style>
 </head>
-
+<body class="bg-ink text-ivory font-body selection:bg-gold selection:text-ink">
 
   <!-- ============ NAV ============ -->
   <header id="siteNav" class="fixed top-0 inset-x-0 z-50 transition-all duration-300">
@@ -967,6 +987,9 @@
     </div>
   </div>
   </header>
+
+  <!-- ============ MAIN CONTENT LANDMARK ============ -->
+  <main id="main-content">
 
   <!-- ============ HERO ============ -->
   <section id="top" class="relative pt-40 pb-28 lg:pt-48 lg:pb-36 overflow-hidden bg-dot-grid">
@@ -1438,6 +1461,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- ============ FOOTER ============ -->
   <footer class="border-t border-white/5 py-12" itemscope itemtype="https://schema.org/RealEstateAgent">
