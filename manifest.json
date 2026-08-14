@@ -2,7 +2,7 @@
   "id": "https://aryaplaza.vercel.app/",
   "name": "Arya Plaza",
   "short_name": "Arya Plaza",
-  "description": "Commercial shops, showrooms and office spaces for rent at J.P. Chowk, Purabsarai Road, Munger, Bihar 811201.",
+  "description": "Lease prime ground-floor commercial shops, retail showrooms, and office spaces at J.P. Chowk, Munger 811201 directly from the property owner. 0% brokerage, dual road access & live digital rent tracking.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -26,6 +26,36 @@
       "src": "assets/baner-icon_vectorized.png",
       "sizes": "192x192",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Commercial Spaces",
+      "short_name": "Spaces",
+      "description": "Explore commercial shops for rent in Munger",
+      "url": "/#spaces",
+      "icons": [{ "src": "assets/baner-icon_vectorized.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Location & Directions",
+      "short_name": "Location",
+      "description": "Find Arya Plaza at J.P. Chowk, Munger",
+      "url": "/#location",
+      "icons": [{ "src": "assets/baner-icon_vectorized.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Arya Spaces Software",
+      "short_name": "Software",
+      "description": "Direct owner digital rent ledger & app",
+      "url": "/#software",
+      "icons": [{ "src": "assets/baner-icon_vectorized.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contact Owner",
+      "short_name": "Contact",
+      "description": "Call or WhatsApp property owner Aaryan Gupta",
+      "url": "/#contact",
+      "icons": [{ "src": "assets/baner-icon_vectorized.png", "sizes": "192x192" }]
     }
   ]
 }

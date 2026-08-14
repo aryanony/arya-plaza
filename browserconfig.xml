@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="/assets/baner-logo_vectorized.png"/>
+            <square310x310logo src="/assets/baner-logo_vectorized.png"/>
+            <TileColor>#0A0F0E</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>

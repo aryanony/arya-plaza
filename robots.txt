@@ -1,4 +1,63 @@
+# ==============================================================================
+# Arya Plaza Commercial Property — Enterprise Master Robots.txt Directive
+# Website: https://aryaplaza.vercel.app/
+# Target Location: J.P. Chowk, Purabsarai Road, Munger, Bihar 811201, India
+# ==============================================================================
+
+# Global Search Engine Crawlers (Googlebot, Bingbot, DuckDuckBot, Applebot, etc.)
 User-agent: *
 Allow: /
+Allow: /assets/
+Allow: /sitemap.xml
+Allow: /manifest.json
+Allow: /google8787e17d7442841f.html
 
+# Protect dotfiles, temporary logs, or scratch directories from crawler bloat
+Disallow: /.*
+Disallow: /*.log$
+Disallow: /scratch/
+
+# Googlebot Specific Rules
+User-agent: Googlebot
+Allow: /
+Allow: /assets/
+
+# Google Image Search Crawler (Crucial for Storefront & Product Snippet Image Indexing)
+User-agent: Googlebot-Image
+Allow: /assets/
+Allow: /
+
+# Google Mobile Crawler
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Bing & Yahoo Crawlers
+User-agent: Bingbot
+Allow: /
+Allow: /assets/
+
+User-agent: Slurp
+Allow: /
+
+# AI Search & GEO Crawlers (Generative Engine Optimization for Search & Voice Answers)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Master XML Sitemap Location for Search Engine Indexing
 Sitemap: https://aryaplaza.vercel.app/sitemap.xml
+

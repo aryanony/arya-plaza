@@ -1,0 +1,12 @@
+/* TEAM */
+  Owner & Lead Developer: Aaryan Gupta
+  Website: https://aryanony.pages.dev/
+  Contact: +91 62056 50368
+  Location: Munger, Bihar 811201, India
+
+/* SITE */
+  Property: Arya Plaza Commercial Landmark
+  Address: J.P. Chowk, Purabsarai Road, Munger, Bihar 811201
+  URL: https://aryaplaza.vercel.app/
+  Language: English / Hindi (en-IN)
+  Technologies: HTML5, CSS3, JavaScript, TailwindCSS, JSON-LD Schema.org Knowledge Graph
