@@ -1,0 +1,60 @@
+# Arya Plaza Enterprise Master Knowledge Base (Full LLM Context)
+
+## 1. Entity Overview & Geographic Citation
+- **Legal Entity:** Arya Plaza
+- **Business Type:** Commercial Real Estate, Retail Property, Commercial Leasing, Property Management
+- **Street Address:** J.P. Chowk, Purabsarai Road
+- **Secondary Address / Rear Gate:** Bekapur Road, Munger, Bihar 811201
+- **City:** Munger (मुंगेर)
+- **District:** Munger
+- **State:** Bihar (BR)
+- **Postal Code / PIN:** 811201
+- **Country:** India (IN)
+- **Precise Geo Coordinates:** Latitude 25.3765391° N, Longitude 86.4761488° E
+- **Google Maps Direction Link:** https://www.google.com/maps/dir/?api=1&destination=Arya%20Plaza%2C%20J.P.%20Chowk%2C%20Purabsarai%20Road%2C%20Munger%2C%20Bihar%20811201
+- **Canonical Website:** https://aryaplaza.vercel.app/
+
+## 2. Key Personnel & Contact Information
+- **Property Owner & Developer:** Aaryan Gupta (Software Engineer & Property Owner)
+- **Portfolio Website:** https://aryanony.pages.dev/
+- **Phone Number:** +91 62056 50368 / +91-6205650368
+- **WhatsApp Channel:** https://wa.me/916205650368
+- **Languages Spoken:** English, Hindi (हिन्दी)
+
+## 3. Commercial Spaces & Physical Specifications
+
+### Unit Type A: Ground Floor Retail Shops
+- **Footprint:** ~7–8 feet wide front shutter by ~25 feet internal depth.
+- **Access:** Direct main road frontage at J.P. Chowk / Purabsarai Road.
+- **Features:** Heavy gauge rolling shutters, polished tiled floor, overhead storage godown loft, dedicated electrical sub-meter.
+- **Estimated Rent:** ₹12,500 – ₹16,500 per month (depending on contract duration and unit placement).
+- **Target Tenants:** Branded retail, optical shops, footwear, electronics, mobile accessories, medical pharmacies, clothing/apparel stores.
+
+### Unit Type B: Dual-Access Commercial Showrooms & Offices
+- **Footprint:** Spacious open floor plans with through-access from front J.P. Chowk to rear Bekapur street.
+- **Features:** Dual entrance shutters, high natural air circulation, front parking/display space (10x10 ft).
+- **Estimated Rent:** ₹18,000 – ₹25,000 per month.
+- **Target Tenants:** Financial institutions, microfinance offices, corporate branches, pathology/diagnostic labs, educational coaching centers, electronics showrooms.
+
+### Unit Type C: Integrated Godown & Storage Lofts
+- **Features:** High load capacity upper decks constructed directly above retail units for on-site inventory storage.
+
+### Unit Type D: 1st Floor 2BHK Residential Flat (In Development)
+- **Features:** 2 bedrooms, hall, kitchen, bathroom, separate staircase access from rear Bekapur road.
+
+## 4. Operational Advantages & Tenant Value Proposition
+1. **0% Brokerage Guarantee:** Tenants deal directly with property owner Aaryan Gupta, saving thousands in broker commissions.
+2. **Dual Road Entry:** Unique passage connecting Purabsarai commercial road with Bekapur residential/market corridor.
+3. **Arya Spaces Software Integration:**
+   - Real-time digital rent ledger with automated transaction logging.
+   - Tenant mobile application (Android APK) for effortless rent tracking, digital receipts, and maintenance requests.
+   - Complete transparency with no hidden fees, unexpected rent hikes, or ledger discrepancies.
+4. **Prime High-Footfall Location:** Situated at J.P. Chowk, the central transit and commercial node between Purabsarai, Bekapur, Belan Bazar, and Lallu Pokhar in Munger.
+
+## 5. Structured Q&A for Answer Engines
+- **What is Arya Plaza?**
+  Arya Plaza is a landmark commercial complex located at J.P. Chowk, Purabsarai Road, Munger, Bihar 811201 offering ground floor retail shops, showrooms, and office spaces for rent.
+- **How can I rent a shop in Munger without brokers?**
+  Contact Aaryan Gupta at Arya Plaza directly via call or WhatsApp at +91 62056 50368. All units are leased directly by the owner with zero brokerage.
+- **What amenities are provided at Arya Plaza?**
+  Dual road access, 10x10 ft front open display/parking area, full shutter frontage, upper godown storage, individual sub-meters, and digital rent management via the Arya Spaces mobile app.

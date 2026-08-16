@@ -2,6 +2,7 @@
 # Arya Plaza Commercial Property — Enterprise Master Robots.txt Directive
 # Website: https://aryaplaza.vercel.app/
 # Target Location: J.P. Chowk, Purabsarai Road, Munger, Bihar 811201, India
+# Owner & Developer: Aaryan Gupta (+91 62056 50368)
 # ==============================================================================
 
 # Global Search Engine Crawlers (Googlebot, Bingbot, DuckDuckBot, Applebot, etc.)
@@ -10,7 +11,11 @@ Allow: /
 Allow: /assets/
 Allow: /sitemap.xml
 Allow: /manifest.json
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /.well-known/
 Allow: /google8787e17d7442841f.html
+Allow: /humans.txt
 
 # Protect dotfiles, temporary logs, or scratch directories from crawler bloat
 Disallow: /.*
@@ -22,7 +27,7 @@ User-agent: Googlebot
 Allow: /
 Allow: /assets/
 
-# Google Image Search Crawler (Crucial for Storefront & Product Snippet Image Indexing)
+# Google Image Search Crawler (Storefront & Commercial Units Snippet Image Indexing)
 User-agent: Googlebot-Image
 Allow: /assets/
 Allow: /
@@ -37,6 +42,13 @@ Allow: /
 Allow: /assets/
 
 User-agent: Slurp
+Allow: /
+
+# Apple Search & Siri Suggestions
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
 Allow: /
 
 # AI Search & GEO Crawlers (Generative Engine Optimization for Search & Voice Answers)
@@ -55,9 +67,17 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: Applebot-Extended
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
 Allow: /
 
 # Master XML Sitemap Location for Search Engine Indexing
 Sitemap: https://aryaplaza.vercel.app/sitemap.xml
 
+# LLMs Markdown Context Location for Answer Engine Discovery
+# Link: https://aryaplaza.vercel.app/llms.txt

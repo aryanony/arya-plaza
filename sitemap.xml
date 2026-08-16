@@ -3,20 +3,43 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://aryaplaza.vercel.app/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://aryaplaza.vercel.app/assets/AryaPlaza.png</image:loc>
       <image:title>Arya Plaza Commercial Shops &amp; Office Spaces for Rent in Munger</image:title>
+      <image:caption>Arya Plaza Commercial Property Landmark at J.P. Chowk, Purabsarai Road, Munger 811201</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://aryaplaza.vercel.app/assets/arya-plaza-storefront.jpg</image:loc>
       <image:title>Arya Plaza Storefront, J.P. Chowk, Munger</image:title>
+      <image:caption>Main retail storefront with full shutter road frontage on Purabsarai Road, Munger</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://aryaplaza.vercel.app/assets/arya-plaza-front-board.jpg</image:loc>
+      <image:title>Arya Plaza Front Signage, J.P. Chowk Munger</image:title>
+      <image:caption>Front main entrance signage at J.P. Chowk commercial market</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://aryaplaza.vercel.app/assets/arya-plaza-rear-board.jpg</image:loc>
+      <image:title>Arya Plaza Back Entrance Signage, Bekapur Road Munger</image:title>
+      <image:caption>Rear entrance signage at Bekapur Road dual-access connection</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://aryaplaza.vercel.app/assets/arya-plaza-banner.jpg</image:loc>
       <image:title>Arya Plaza Prime Retail Commercial Spaces</image:title>
+      <image:caption>Commercial retail shop, showroom and office spaces for rent in Munger with zero brokerage</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://aryaplaza.vercel.app/assets/arya-plaza-street.jpg</image:loc>
+      <image:title>Market Street Footfall at J.P. Chowk Munger</image:title>
+      <image:caption>Busy commercial lane on Purabsarai Road leading to Arya Plaza</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://aryaplaza.vercel.app/assets/baner-logo_vectorized.png</image:loc>
+      <image:title>Arya Plaza Official Logo</image:title>
+      <image:caption>Arya Plaza Commercial Property official brand emblem</image:caption>
     </image:image>
   </url>
 </urlset>

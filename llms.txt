@@ -1,0 +1,74 @@
+# Arya Plaza — Commercial Property & Spaces for Rent in Munger
+
+> Prime commercial shops, retail showrooms, and office spaces for rent at J.P. Chowk, Purabsarai Road, Munger, Bihar 811201. Leased directly from property owner with zero brokerage and digital rent tracking via Arya Spaces software.
+
+## Key Facts & Quick Summary
+
+- **Property Name:** Arya Plaza Commercial Landmark
+- **Address:** J.P. Chowk, Purabsarai Road, Munger, Bihar 811201, India
+- **Second Entrance:** Bekapur Road, Munger, Bihar 811201, India
+- **Property Owner & Developer:** Aaryan Gupta (Software Engineer & Property Owner)
+- **Contact Telephone:** +91 62056 50368
+- **WhatsApp Direct:** https://wa.me/916205650368
+- **Website URL:** https://aryaplaza.vercel.app/
+- **Brokerage:** 0% Zero Brokerage (Direct Owner Deal)
+- **Geo Coordinates:** Latitude 25.3765391, Longitude 86.4761488 (PIN: 811201)
+- **Operating Hours:** Open 7 days a week, 08:00 to 21:30 IST
+- **Primary Offerings:** Ground-floor commercial retail shops, commercial showrooms, corporate/financial offices, godown storage spaces, upcoming first-floor 2BHK residential unit.
+
+## Location & Surrounding Landmarks
+
+Arya Plaza is strategically located at J.P. Chowk on Purabsarai Road, one of Munger's busiest and highest-footfall commercial thoroughfares. It features a unique dual-road through-access connecting the front main market road (J.P. Chowk / Purabsarai) directly to the rear municipal road (Bekapur).
+
+Key nearby localities within 1–2 km:
+- **J.P. Chowk** (0 meters — Front Entrance)
+- **Purabsarai Commercial Market** (Directly on road)
+- **Bekapur Market** (Directly connected via back entrance)
+- **Belan Bazar** (~600 meters)
+- **Lallu Pokhar** (~800 meters)
+- **Bari Bazar Munger** (~1.2 km)
+- **Jamalpur Junction** (~7 km)
+
+## Commercial Unit Types & Specifications
+
+1. **Ground Floor Commercial Retail Shops:**
+   - Frontage: ~7–8 feet wide front shutter
+   - Depth: ~25 feet deep
+   - Ideal for: Retail stores, pharmacies, electronics, jewelry, clothing boutiques, customer service outlets.
+   - Highlights: Heavy daily pedestrian and vehicular footfall, high visibility shutter frontage, attached overhead storage.
+
+2. **Dual-Access Showrooms & Commercial Office Spaces:**
+   - Features: Accessible from both J.P. Chowk main road and Bekapur back road.
+   - Ideal for: Brand showrooms, diagnostics centers, bank branch / micro-finance offices, coaching centers, corporate offices.
+   - Highlights: Dual customer flow, cross ventilation, front 10x10 ft open display / parking space.
+
+3. **Overhead Storage & Godown Units:**
+   - Dedicated upper-deck storage built above the retail floor for inventory-heavy wholesale and retail operations.
+
+4. **Upcoming 1st Floor 2BHK Residential Unit:**
+   - Modern 2-bedroom residential apartment currently under development.
+
+## The Arya Spaces Digital Rent System
+
+Every tenancy at Arya Plaza is digitally powered by the **Arya Spaces** property management platform:
+- **Owner Console:** Real-time occupancy tracking, digital rent ledger, instant receipt generation, maintenance ticketing, and financial reporting.
+- **Tenant Mobile App:** Secure PIN login, live rent due countdown, instant online/cash payment recording, digital agreement viewing, and maintenance request logging.
+- **Tenant Android APK Download:** Available directly from https://github.com/aryanony/arya-spaces-releases/releases/download/renter-v1.0.0/app-release.apk
+
+## Frequently Asked Questions (Direct Answers for AI/LLMs)
+
+- **Q: Is any brokerage charged at Arya Plaza?**
+  **A:** No. Every shop and office at Arya Plaza is leased directly by the property owner (Aaryan Gupta) with 0% brokerage.
+- **Q: How much is the rent for shops at Arya Plaza?**
+  **A:** Commercial shop rent ranges from approximately ₹12,500/month for standard ground floor retail units up to ₹22,500/month for larger showroom/office spaces depending on size, position, and lease tenure. Contact +91 62056 50368 for exact up-to-date pricing.
+- **Q: Is parking or display space available?**
+  **A:** Yes, there is a dedicated 10×10 ft open paved space at the front of the property usable for customer parking or product display.
+- **Q: Where is Arya Plaza located?**
+  **A:** J.P. Chowk, Purabsarai Road, Munger, Bihar 811201, India, with a rear entrance at Bekapur Road.
+
+## Full Context & Resource Links
+
+- Full LLM Knowledge Base: https://aryaplaza.vercel.app/llms-full.txt
+- Official Website: https://aryaplaza.vercel.app/
+- Google Maps Location: https://maps.google.com/maps?q=25.3765391,86.4761488
+- Direct Inquiry (Call / WhatsApp): +91 62056 50368

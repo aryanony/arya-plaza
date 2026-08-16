@@ -1,45 +1,61 @@
-# Arya Plaza
+# Arya Plaza — Commercial Property & Spaces for Rent in Munger
 
-Official website of **Arya Plaza**, a premium commercial property located at **JP Chowk, Purabsarai Road, Munger, Bihar**.
+Official website and digital knowledge graph of **Arya Plaza**, a premier commercial property located at **J.P. Chowk, Purabsarai Road, Munger, Bihar 811201**.
 
-## About
+---
 
-Arya Plaza offers premium commercial shops, showroom spaces, office spaces, and rental properties in one of Munger's busiest commercial locations.
+## 🌐 Live Canonical Deployment & Resources
 
-## Features
+- **Official Website:** [https://aryaplaza.vercel.app/](https://aryaplaza.vercel.app/)
+- **Master XML Sitemap:** [https://aryaplaza.vercel.app/sitemap.xml](https://aryaplaza.vercel.app/sitemap.xml)
+- **Robots Directives:** [https://aryaplaza.vercel.app/robots.txt](https://aryaplaza.vercel.app/robots.txt)
+- **LLMs / AI Search Knowledge Context:** [https://aryaplaza.vercel.app/llms.txt](https://aryaplaza.vercel.app/llms.txt)
+- **Full LLM Context:** [https://aryaplaza.vercel.app/llms-full.txt](https://aryaplaza.vercel.app/llms-full.txt)
+- **Direct WhatsApp:** [+91 62056 50368](https://wa.me/916205650368)
 
-- Commercial Shops
-- Office Spaces
-- Retail Shops
-- Showroom Spaces
-- Prime Location
-- High Footfall
-- Parking
-- Dual Road Access
+---
 
-## Technologies
+## 📍 Geographic & Entity Information
 
-- HTML5
-- CSS3
-- JavaScript
+- **Landmark Address:** J.P. Chowk, Purabsarai Road, Munger, Bihar 811201, India
+- **Rear Entrance:** Bekapur Road, Munger, Bihar 811201, India
+- **Geo Coordinates:** `25.3765391° N, 86.4761488° E`
+- **PIN Code:** 811201
+- **Surrounding Localities:** J.P. Chowk, Purabsarai, Bekapur, Belan Bazar, Lallu Pokhar, Bari Bazar, Jamalpur
 
-## Live Website
+---
 
-https://aryaplaza.vercel.app
+## 🚀 SEO, GEO & AEO Architecture
 
-## Google Business
+This project is built with an enterprise-grade optimization stack:
 
-Arya Plaza
-JP Chowk
-Purabsarai Road
-Munger
-Bihar
+1. **Answer Engine Optimization (AEO):**
+   - Full RFC-standard `/llms.txt` and `/llms-full.txt` endpoints for AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Applebot).
+   - Pre-rendered static HTML FAQ blocks with synchronous Schema.org `FAQPage` alignment.
 
+2. **Generative Engine & Geographic Optimization (GEO):**
+   - Dublin Core (DC), Open Graph, Twitter Cards, and Geographic ICBM meta tags.
+   - Dual-language entity metadata (English and Hindi).
 
-Copyright © 2026 Arya Plaza. All Rights Reserved.
+3. **Master JSON-LD Knowledge Graph (`@graph`):**
+   - `WebSite`, `Organization`, `LocalBusiness`, `RealEstateAgent`, `CommercialBuilding`, `PostalAddress`, `GeoCoordinates`, `Product` / `Offer` catalog, `BreadcrumbList`, `FAQPage`, `ItemList`, and `SpeakableSpecification`.
 
-This repository, including its source code, design, graphics, images, branding, logo, content, and documentation, is proprietary and confidential.
+4. **Technical Infrastructure & Security (`vercel.json`):**
+   - Content-Security-Policy (CSP), Strict-Transport-Security (HSTS), X-Content-Type-Options: nosniff, X-Frame-Options: SAMEORIGIN, Referrer-Policy, and immutable asset caching.
 
-No part of this repository may be copied, modified, distributed, published, sublicensed, sold, or used in any form without prior written permission from the copyright owner.
+---
 
-Unauthorized use of this material is strictly prohibited.
+## 🏢 Commercial Offerings
+
+- **Ground Floor Retail Shops:** ~7–8 ft frontage × 25 ft depth, high shutter visibility on Purabsarai main road.
+- **Dual-Access Showrooms & Offices:** Through-passage from J.P. Chowk to Bekapur road.
+- **Godown / Loft Storage:** Upper deck inventory storage built above shop units.
+- **Arya Spaces Tenant App:** Real-time digital rent tracking, payment receipts, and maintenance logs.
+- **0% Brokerage Guarantee:** Direct-from-owner commercial leasing.
+
+---
+
+## 📄 License & Ownership
+
+Copyright © 2026 Arya Plaza. All Rights Reserved.  
+Property Owner & Developer: **Aaryan Gupta** ([Portfolio](https://aryanony.pages.dev/))

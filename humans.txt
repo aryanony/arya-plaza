@@ -8,5 +8,5 @@
   Property: Arya Plaza Commercial Landmark
   Address: J.P. Chowk, Purabsarai Road, Munger, Bihar 811201
   URL: https://aryaplaza.vercel.app/
-  Language: English / Hindi (en-IN)
-  Technologies: HTML5, CSS3, JavaScript, TailwindCSS, JSON-LD Schema.org Knowledge Graph
+  Language: English / Hindi (en-IN, hi-IN)
+  Technologies: HTML5, CSS3, JavaScript, TailwindCSS, JSON-LD Schema.org Knowledge Graph, LLMs Markdown Context (/llms.txt)
