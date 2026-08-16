@@ -98,16 +98,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preload" as="image" href="assets/baner-logo_vectorized.png" fetchpriority="high" />
-  <link rel="preload" as="image" href="assets/arya-plaza-storefront.jpg" fetchpriority="high" />
 
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
-    rel="stylesheet" media="print" onload="this.media='all'" />
-  <noscript>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
-      rel="stylesheet" />
-  </noscript>
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
 
   <!-- Master Enterprise Multi-Entity Knowledge Graph Schema (@graph architecture) -->
   <script type="application/ld+json">
@@ -569,7 +563,7 @@
   <style>
     /* Enforce Website Custom Web Fonts Across All Devices & Elements */
     *, *::before, *::after, input, button, select, textarea {
-      font-family: 'Inter', sans-serif !important;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
@@ -581,16 +575,16 @@
     body {
       background-color: #0A0F0E;
       color: #FFFFFF !important;
-      font-family: 'Inter', sans-serif !important;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
     }
 
     h1, h2, h3, h4, h5, h6, .font-display {
-      font-family: 'Space Grotesk', sans-serif !important;
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
       color: #FFFFFF !important;
     }
 
     .font-mono, code, pre, kbd, samp {
-      font-family: 'IBM Plex Mono', monospace !important;
+      font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
     }
 
     .text-ivory {
@@ -627,6 +621,20 @@
     .reveal.in-view {
       opacity: 1;
       transform: translateY(0);
+    }
+
+    /* Above-the-fold instant paint for 100/100 Core Web Vitals & FCP */
+    #top .reveal, #siteNav, .in-view {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+      }
     }
 
     .reveal-delay-1 {
