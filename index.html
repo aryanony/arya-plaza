@@ -766,8 +766,6 @@
       scroll-snap-align: start;
       flex: 0 0 auto;
       width: 74%;
-      perspective: 1000px;
-      transform-style: preserve-3d;
     }
 
     @media (min-width: 640px) {
@@ -783,29 +781,36 @@
     }
 
     .mockup-3d-card {
-      border-radius: 1.6rem;
-      overflow: hidden;
-      background: #0E1A18;
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.45s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.45s ease;
-      transform: rotateY(-2.5deg) rotateX(1deg) scale(0.985);
-      will-change: transform, box-shadow;
-      backface-visibility: hidden;
-      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.65);
+      background: transparent !important;
+      border: none !important;
+      box-shadow: none !important;
+      transform: none !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: visible;
     }
 
-    .group:hover .mockup-3d-card {
-      transform: rotateY(0deg) rotateX(0deg) translateY(-8deg) scale(1.02);
+    .mockup-img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 0;
+      filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.6));
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), filter 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: transform, filter;
     }
 
-    .mockup-3d-admin:hover {
-      border-color: rgba(212, 175, 55, 0.5);
-      box-shadow: 0 24px 48px -8px rgba(156, 106, 27, 0.32), 0 12px 28px rgba(0, 0, 0, 0.7);
+    .group:hover .mockup-img {
+      transform: translateY(-8px) scale(1.02);
     }
 
-    .mockup-3d-renter:hover {
-      border-color: rgba(45, 212, 191, 0.5);
-      box-shadow: 0 24px 48px -8px rgba(45, 212, 191, 0.28), 0 10px 28px rgba(0, 0, 0, 0.7);
+    .group:hover .mockup-3d-admin .mockup-img {
+      filter: drop-shadow(0 20px 36px rgba(156, 106, 27, 0.28)) drop-shadow(0 10px 22px rgba(0, 0, 0, 0.7));
+    }
+
+    .group:hover .mockup-3d-renter .mockup-img {
+      filter: drop-shadow(0 20px 36px rgba(45, 212, 191, 0.28)) drop-shadow(0 10px 22px rgba(0, 0, 0, 0.7));
     }
 
     /* Animated Hamburger Button */
