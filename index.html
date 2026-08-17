@@ -99,8 +99,15 @@
   <link rel="preload" as="image" href="assets/baner-logo_vectorized.png" fetchpriority="high" />
 
   <link
+    rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
-    rel="stylesheet" />
+    media="print"
+    onload="this.media='all'" />
+  <noscript>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" />
+  </noscript>
 
   <!-- Master Enterprise Multi-Entity Knowledge Graph Schema (@graph architecture) -->
   <script type="application/ld+json">
@@ -612,14 +619,13 @@
     }
 
     .reveal {
-      opacity: 0;
-      transform: translateY(24px);
-      transition: opacity 0.7s ease, transform 0.7s ease;
+      opacity: 1 !important;
+      transform: none !important;
     }
 
     .reveal.in-view {
-      opacity: 1;
-      transform: translateY(0);
+      opacity: 1 !important;
+      transform: none !important;
     }
 
     /* Above-the-fold instant paint for 100/100 Core Web Vitals & FCP */
