@@ -1,7 +1,8 @@
 # ==============================================================================
-# Arya Plaza Commercial Property — Enterprise Master Robots.txt Directive
+# Arya Plaza Commercial Business Centre — Enterprise Master Robots.txt Directive
 # Website: https://aryaplaza.vercel.app/
 # Target Location: J.P. Chowk, Purabsarai Road, Munger, Bihar 811201, India
+# Google Knowledge Graph ID: /g/11zh7416c3
 # Owner & Developer: Aaryan Gupta (+91 62056 50368)
 # ==============================================================================
 
@@ -22,18 +23,22 @@ Disallow: /.*
 Disallow: /*.log$
 Disallow: /scratch/
 
-# Googlebot Specific Rules
+# Googlebot Specific Directives
 User-agent: Googlebot
 Allow: /
 Allow: /assets/
 
-# Google Image Search Crawler (Storefront & Commercial Units Snippet Image Indexing)
+# Google Image Search Crawler (Storefront & Commercial Units Image Indexing)
 User-agent: Googlebot-Image
 Allow: /assets/
 Allow: /
 
 # Google Mobile Crawler
 User-agent: Googlebot-Mobile
+Allow: /
+
+# Google AI & Extended Training Crawler
+User-agent: Google-Extended
 Allow: /
 
 # Bing & Yahoo Crawlers
@@ -44,40 +49,68 @@ Allow: /assets/
 User-agent: Slurp
 Allow: /
 
-# Apple Search & Siri Suggestions
+# Apple Search & Siri Suggestions (AIO / Siri Knowledge)
 User-agent: Applebot
 Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
 
-# AI Search & GEO Crawlers (Generative Engine Optimization for Search & Voice Answers)
+# OpenAI AI Search & ChatGPT Crawlers (SearchGPT, ChatGPT)
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
+# Perplexity AI Search Crawler
 User-agent: PerplexityBot
 Allow: /
 
+# Anthropic Claude Crawlers
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
 Allow: /
 
 User-agent: anthropic-ai
 Allow: /
 
+# Meta / Facebook Crawlers
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Cohere AI Crawler
+User-agent: cohere-ai
+Allow: /
+
+# Common Crawl & Open Web Training
 User-agent: CCBot
 Allow: /
 
-User-agent: cohere-ai
+# ByteDance / TikTok AI Crawler
+User-agent: Bytespider
+Allow: /
+
+# Diffbot Knowledge Graph Crawler
+User-agent: Diffbot
+Allow: /
+
+# You.com AI Search Crawler
+User-agent: YouBot
+Allow: /
+
+# Amazon Alexa & AI Crawler
+User-agent: Amazonbot
 Allow: /
 
 # Master XML Sitemap Location for Search Engine Indexing
 Sitemap: https://aryaplaza.vercel.app/sitemap.xml
 
-# LLMs Markdown Context Location for Answer Engine Discovery
+# LLMs RFC Markdown Context Location for Answer Engine Discovery
 # Link: https://aryaplaza.vercel.app/llms.txt
+# Link: https://aryaplaza.vercel.app/llms-full.txt
