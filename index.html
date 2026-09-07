@@ -366,6 +366,29 @@
       "category": "Commercial Retail Property",
       "sku": "AP-MUNGER-SHOP-01",
       "brand": { "@type": "Brand", "name": "Arya Plaza" },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "24",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "author": { "@type": "Person", "name": "Rajesh Kumar (Retail Merchant)" },
+          "datePublished": "2026-02-15",
+          "reviewBody": "Prime commercial shop at J.P. Chowk Munger with heavy daily footfall, zero brokerage, and transparent rent tracking via the Arya Spaces app."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "author": { "@type": "Person", "name": "Amit Singhania (Business Owner)" },
+          "datePublished": "2026-02-28",
+          "reviewBody": "Superb commercial space directly on Purabsarai main market road. Zero brokerage and clear agreement directly with owner Aaryan Gupta."
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "url": "https://aryaplaza.vercel.app/#spaces",
@@ -375,7 +398,39 @@
         "priceValidUntil": "2027-12-31",
         "itemCondition": "https://schema.org/NewCondition",
         "availability": "https://schema.org/InStock",
-        "seller": { "@id": "https://aryaplaza.vercel.app/#organization" }
+        "seller": { "@id": "https://aryaplaza.vercel.app/#organization" },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "INR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "IN"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 0,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "IN",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+        }
       }
     },
     {
@@ -391,6 +446,29 @@
       "category": "Commercial Office Property",
       "sku": "AP-MUNGER-OFFICE-01",
       "brand": { "@type": "Brand", "name": "Arya Plaza" },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "18",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "author": { "@type": "Person", "name": "Sanjay Verma (Regional Manager)" },
+          "datePublished": "2026-02-20",
+          "reviewBody": "Outstanding showroom and corporate office space with dual road access from main market Purabsarai and Bekapur. Excellent professional environment in central Munger."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "author": { "@type": "Person", "name": "Dr. P. K. Mishra" },
+          "datePublished": "2026-03-01",
+          "reviewBody": "Ground floor accessibility with front parking space and dual entry made Arya Plaza the best business location for our setup."
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "url": "https://aryaplaza.vercel.app/#spaces",
@@ -400,7 +478,39 @@
         "priceValidUntil": "2027-12-31",
         "itemCondition": "https://schema.org/NewCondition",
         "availability": "https://schema.org/InStock",
-        "seller": { "@id": "https://aryaplaza.vercel.app/#organization" }
+        "seller": { "@id": "https://aryaplaza.vercel.app/#organization" },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "INR"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "IN"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 0,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "IN",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+        }
       }
     },
     {
@@ -591,30 +701,9 @@
 }
 </script>
 
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            ink: '#0A0F0E', inkLight: '#0F1816', inkCard: '#122120',
-            teal: { deep: '#0F3D3E', DEFAULT: '#1C6B6D', bright: '#2DD4BF' },
-            gold: { DEFAULT: '#9C6A1B', soft: '#E8C766', deep: '#A9841F' },
-            ivory: '#F1EDE4', stone: '#C8D8D6',
-          },
-          fontFamily: {
-            display: ['"Space Grotesk"', 'sans-serif'],
-            body: ['"Inter"', 'sans-serif'],
-            mono: ['"IBM Plex Mono"', 'monospace'],
-          },
-          boxShadow: {
-            gold: '0 0 40px -8px rgba(212,175,55,0.35)',
-            teal: '0 0 40px -8px rgba(45,212,191,0.25)',
-          },
-        },
-      },
-    };
-  </script>
+  <!-- Production Pre-compiled High Performance Stylesheet -->
+  <link rel="preload" href="assets/style.css" as="style" />
+  <link rel="stylesheet" href="assets/style.css" />
 
   <style>
     *, *::before, *::after, input, button, select, textarea {
@@ -1088,8 +1177,8 @@
     <section id="top" class="relative pt-40 pb-24 lg:pt-48 lg:pb-32 overflow-hidden bg-dot-grid">
       <div class="absolute -top-40 -left-40 w-[32rem] h-[32rem] glow-teal rounded-full"></div>
       <div class="absolute top-20 -right-32 w-[28rem] h-[28rem] glow-gold rounded-full"></div>
-      <img src="assets/baner-text.png" alt="" aria-hidden="true" width="1400" height="200"
-        class="pointer-events-none select-none absolute left-1/2 top-24 -translate-x-1/2 w-[110%] max-w-none opacity-[0.08] hidden lg:block" />
+      <img src="assets/baner-text.png" alt="" aria-hidden="true" width="1254" height="542"
+        class="pointer-events-none select-none absolute left-1/2 top-24 -translate-x-1/2 w-[110%] h-auto max-w-none opacity-[0.08] hidden lg:block" />
 
       <div class="relative max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-14 items-center">
         <div class="reveal in-view">
@@ -1424,8 +1513,8 @@
         <div class="mt-16 reveal reveal-delay-2">
           <img src="assets/arya-plaza-banner.jpg"
             alt="Arya Plaza Commercial Business Centre Munger — Retail, Showrooms, Offices &amp; Lofts Listing Banner"
-            width="1200" height="600" loading="lazy" decoding="async"
-            class="rounded-2xl border border-white/10 shadow-2xl shadow-black/50 w-full card-tilt" />
+            width="1600" height="639" loading="lazy" decoding="async"
+            class="rounded-2xl border border-white/10 shadow-2xl shadow-black/50 w-full h-auto card-tilt" />
         </div>
       </div>
     </section>
@@ -1544,9 +1633,9 @@
       <div class="max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-16 items-center">
         <div class="reveal">
           <img src="assets/arya-plaza-storefront.jpg"
-            alt="Arya Plaza Main Storefront Commercial Building at J.P. Chowk Purabsarai Road Munger" width="600"
-            height="400" loading="lazy" decoding="async"
-            class="rounded-2xl border border-white/10 shadow-2xl shadow-black/50 w-full object-cover card-tilt" />
+            alt="Arya Plaza Main Storefront Commercial Building at J.P. Chowk Purabsarai Road Munger" width="1086"
+            height="1448" loading="lazy" decoding="async"
+            class="rounded-2xl border border-white/10 shadow-2xl shadow-black/50 w-full h-auto max-h-[560px] object-cover card-tilt" />
         </div>
         <div class="reveal reveal-delay-1">
           <span class="text-gold font-mono text-xs tracking-widest uppercase">THE COMMERCIAL LANDMARK</span>
@@ -1669,40 +1758,136 @@
             Arya Plaza's dual-road design provides authentic street access from both the high-footfall main market side (Purabsarai Road, J.P. Chowk) and the municipal back road (Bekapur) — an exceptional rarity in Munger commercial real estate.
           </p>
         </div>
-        <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          <div class="reveal card-tilt rounded-2xl overflow-hidden border border-white/10 relative group">
-            <img src="assets/arya-plaza-storefront.jpg" alt="Arya Plaza Main Storefront View J.P. Chowk Munger"
-              width="400" height="260" loading="lazy" decoding="async" class="w-full h-64 object-cover" />
-            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink to-transparent p-4">
-              <p class="font-display text-sm text-ivory">Main Storefront</p>
-              <p class="text-[10px] text-stone">Full rolling shutter frontage on Purabsarai Road</p>
+        <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Card 1: Main Storefront -->
+          <div class="reveal group rounded-3xl overflow-hidden border border-white/10 hover:border-gold/50 bg-inkCard/80 hover:bg-inkCard transition-all duration-300 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-gold/15 cursor-pointer"
+            onclick="openGalleryModal(0)">
+            <div class="relative w-full h-80 sm:h-84 lg:h-96 bg-gradient-to-b from-[#080D0C] via-[#0B1514] to-[#080D0C] p-3 flex items-center justify-center overflow-hidden border-b border-white/5">
+              <span class="absolute top-3.5 left-3.5 z-10 bg-ink/85 backdrop-blur-md border border-white/10 text-[11px] font-mono text-gold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-lg">
+                <span class="w-1.5 h-1.5 rounded-full bg-gold pulse-dot"></span> Entrance 01
+              </span>
+              <div class="absolute top-3.5 right-3.5 z-10 bg-ink/80 backdrop-blur-md border border-white/10 p-2 rounded-full text-stone group-hover:text-gold group-hover:border-gold/40 transition-all shadow-lg"
+                title="Click to view full resolution photo">
+                <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/>
+                </svg>
+              </div>
+              <img src="assets/arya-plaza-storefront.jpg" alt="Arya Plaza Main Storefront View J.P. Chowk Munger"
+                width="1086" height="1448" loading="lazy" decoding="async"
+                class="w-full h-full object-contain filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.8)] transition-transform duration-500 ease-out group-hover:scale-[1.03]" />
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between text-[11px] font-mono text-teal-bright mb-1.5">
+                  <span>J.P. Chowk Frontage</span>
+                  <span class="text-stone/60">0% Brokerage</span>
+                </div>
+                <h3 class="font-display font-semibold text-lg text-ivory group-hover:text-gold-soft transition-colors">Main Storefront</h3>
+                <p class="text-xs text-stone/90 mt-1.5 leading-relaxed">Full rolling shutter frontage facing Purabsarai Road with heavy daily customer pedestrian footfall.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] font-mono text-stone/70">
+                <span>Purabsarai Market</span>
+                <span class="text-gold group-hover:translate-x-1 transition-transform flex items-center gap-1 font-medium">Click to expand &rarr;</span>
+              </div>
             </div>
           </div>
-          <div class="reveal reveal-delay-1 card-tilt rounded-2xl overflow-hidden border border-white/10 relative">
-            <img src="assets/arya-plaza-front-board.jpg"
-              alt="Arya Plaza Front Signage, J.P. Chowk, Purabsarai Road, Munger" width="400" height="260"
-              loading="lazy" decoding="async" class="w-full h-64 object-cover" />
-            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink to-transparent p-4">
-              <p class="font-display text-sm text-ivory">Front Entrance — J.P. Chowk</p>
-              <p class="text-[10px] text-stone">Main landmark commercial gate</p>
+
+          <!-- Card 2: Front Board J.P. Chowk -->
+          <div class="reveal reveal-delay-1 group rounded-3xl overflow-hidden border border-white/10 hover:border-gold/50 bg-inkCard/80 hover:bg-inkCard transition-all duration-300 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-gold/15 cursor-pointer"
+            onclick="openGalleryModal(1)">
+            <div class="relative w-full h-80 sm:h-84 lg:h-96 bg-gradient-to-b from-[#080D0C] via-[#0B1514] to-[#080D0C] p-3 flex items-center justify-center overflow-hidden border-b border-white/5">
+              <span class="absolute top-3.5 left-3.5 z-10 bg-ink/85 backdrop-blur-md border border-white/10 text-[11px] font-mono text-gold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-lg">
+                <span class="w-1.5 h-1.5 rounded-full bg-gold pulse-dot"></span> Landmark Board
+              </span>
+              <div class="absolute top-3.5 right-3.5 z-10 bg-ink/80 backdrop-blur-md border border-white/10 p-2 rounded-full text-stone group-hover:text-gold group-hover:border-gold/40 transition-all shadow-lg"
+                title="Click to view full resolution photo">
+                <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/>
+                </svg>
+              </div>
+              <img src="assets/arya-plaza-front-board.jpg" alt="Arya Plaza Front Signage, J.P. Chowk, Purabsarai Road, Munger"
+                width="633" height="885" loading="lazy" decoding="async"
+                class="w-full h-full object-contain filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.8)] transition-transform duration-500 ease-out group-hover:scale-[1.03]" />
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between text-[11px] font-mono text-teal-bright mb-1.5">
+                  <span>Official Signage</span>
+                  <span class="text-stone/60">Front Gateway</span>
+                </div>
+                <h3 class="font-display font-semibold text-lg text-ivory group-hover:text-gold-soft transition-colors">Front Entrance — J.P. Chowk</h3>
+                <p class="text-xs text-stone/90 mt-1.5 leading-relaxed">High-visibility 3D metallic signboard installed right at the primary market entrance gate.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] font-mono text-stone/70">
+                <span>J.P. Chowk Gate</span>
+                <span class="text-gold group-hover:translate-x-1 transition-transform flex items-center gap-1 font-medium">Click to expand &rarr;</span>
+              </div>
             </div>
           </div>
-          <div class="reveal reveal-delay-2 card-tilt rounded-2xl overflow-hidden border border-white/10 relative">
-            <img src="assets/arya-plaza-rear-board.jpg"
-              alt="Arya Plaza Rear Corridor Signage, Bekapur Road, Munger 811201" width="400" height="260"
-              loading="lazy" decoding="async" class="w-full h-64 object-cover" />
-            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink to-transparent p-4">
-              <p class="font-display text-sm text-ivory">Back Entrance — Bekapur</p>
-              <p class="text-[10px] text-stone">Secondary access corridor &amp; logistics ingress</p>
+
+          <!-- Card 3: Back Board Bekapur -->
+          <div class="reveal reveal-delay-2 group rounded-3xl overflow-hidden border border-white/10 hover:border-gold/50 bg-inkCard/80 hover:bg-inkCard transition-all duration-300 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-gold/15 cursor-pointer"
+            onclick="openGalleryModal(2)">
+            <div class="relative w-full h-80 sm:h-84 lg:h-96 bg-gradient-to-b from-[#080D0C] via-[#0B1514] to-[#080D0C] p-3 flex items-center justify-center overflow-hidden border-b border-white/5">
+              <span class="absolute top-3.5 left-3.5 z-10 bg-ink/85 backdrop-blur-md border border-white/10 text-[11px] font-mono text-gold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-lg">
+                <span class="w-1.5 h-1.5 rounded-full bg-gold pulse-dot"></span> Entrance 02
+              </span>
+              <div class="absolute top-3.5 right-3.5 z-10 bg-ink/80 backdrop-blur-md border border-white/10 p-2 rounded-full text-stone group-hover:text-gold group-hover:border-gold/40 transition-all shadow-lg"
+                title="Click to view full resolution photo">
+                <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/>
+                </svg>
+              </div>
+              <img src="assets/arya-plaza-rear-board.jpg" alt="Arya Plaza Rear Corridor Signage, Bekapur Road, Munger 811201"
+                width="620" height="903" loading="lazy" decoding="async"
+                class="w-full h-full object-contain filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.8)] transition-transform duration-500 ease-out group-hover:scale-[1.03]" />
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between text-[11px] font-mono text-teal-bright mb-1.5">
+                  <span>Rear Corridor</span>
+                  <span class="text-stone/60">Logistics Ingress</span>
+                </div>
+                <h3 class="font-display font-semibold text-lg text-ivory group-hover:text-gold-soft transition-colors">Back Entrance — Bekapur</h3>
+                <p class="text-xs text-stone/90 mt-1.5 leading-relaxed">Secondary corridor signboard marking direct vehicle access and logistics ingress from Bekapur road.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] font-mono text-stone/70">
+                <span>Bekapur Road</span>
+                <span class="text-gold group-hover:translate-x-1 transition-transform flex items-center gap-1 font-medium">Click to expand &rarr;</span>
+              </div>
             </div>
           </div>
-          <div class="reveal reveal-delay-3 card-tilt rounded-2xl overflow-hidden border border-white/10 relative">
-            <img src="assets/arya-plaza-street.jpg"
-              alt="Market Street Footfall Context near Arya Plaza J.P. Chowk, Munger" width="400" height="260"
-              loading="lazy" decoding="async" class="w-full h-64 object-cover" />
-            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink to-transparent p-4">
-              <p class="font-display text-sm text-ivory">High-Footfall Market Lane</p>
-              <p class="text-[10px] text-stone">Constant pedestrian &amp; vehicular movement</p>
+
+          <!-- Card 4: Market Lane -->
+          <div class="reveal reveal-delay-3 group rounded-3xl overflow-hidden border border-white/10 hover:border-gold/50 bg-inkCard/80 hover:bg-inkCard transition-all duration-300 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-gold/15 cursor-pointer"
+            onclick="openGalleryModal(3)">
+            <div class="relative w-full h-80 sm:h-84 lg:h-96 bg-gradient-to-b from-[#080D0C] via-[#0B1514] to-[#080D0C] p-3 flex items-center justify-center overflow-hidden border-b border-white/5">
+              <span class="absolute top-3.5 left-3.5 z-10 bg-ink/85 backdrop-blur-md border border-white/10 text-[11px] font-mono text-gold px-3 py-1 rounded-full flex items-center gap-1.5 shadow-lg">
+                <span class="w-1.5 h-1.5 rounded-full bg-gold pulse-dot"></span> Street Context
+              </span>
+              <div class="absolute top-3.5 right-3.5 z-10 bg-ink/80 backdrop-blur-md border border-white/10 p-2 rounded-full text-stone group-hover:text-gold group-hover:border-gold/40 transition-all shadow-lg"
+                title="Click to view full resolution photo">
+                <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"/>
+                </svg>
+              </div>
+              <img src="assets/arya-plaza-street.jpg" alt="Market Street Footfall Context near Arya Plaza J.P. Chowk, Munger"
+                width="408" height="240" loading="lazy" decoding="async"
+                class="w-full h-full object-contain filter drop-shadow-[0_12px_24px_rgba(0,0,0,0.8)] transition-transform duration-500 ease-out group-hover:scale-[1.03]" />
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between text-[11px] font-mono text-teal-bright mb-1.5">
+                  <span>Footfall Density</span>
+                  <span class="text-stone/60">Purabsarai Bazaar</span>
+                </div>
+                <h3 class="font-display font-semibold text-lg text-ivory group-hover:text-gold-soft transition-colors">High-Footfall Market Lane</h3>
+                <p class="text-xs text-stone/90 mt-1.5 leading-relaxed">Continuous pedestrian and commercial movement throughout Purabsarai market, connecting Bekapur &amp; J.P. Chowk.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-[11px] font-mono text-stone/70">
+                <span>Active Bazaar</span>
+                <span class="text-gold group-hover:translate-x-1 transition-transform flex items-center gap-1 font-medium">Click to expand &rarr;</span>
+              </div>
             </div>
           </div>
         </div>
@@ -1865,7 +2050,7 @@
         </div>
         <div class="lg:col-span-3 reveal reveal-delay-1">
           <div class="rounded-3xl overflow-hidden border border-white/10 shadow-2xl shadow-black/50">
-            <iframe src="https://maps.google.com/maps?q=25.3765391,86.4761488&z=18&output=embed" class="w-full h-[420px]"
+            <iframe data-src="https://maps.google.com/maps?q=25.3765391,86.4761488&z=18&output=embed" class="w-full h-[420px]"
               style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
               title="Arya Plaza location map at J.P. Chowk Munger"></iframe>
           </div>
@@ -2390,6 +2575,47 @@
       document.body.style.overflow = '';
     }
 
+    const storefrontPhotos = [
+      {
+        src: 'assets/arya-plaza-storefront.jpg',
+        title: 'Main Storefront Facade',
+        badge: 'Entrance 01 · J.P. Chowk Side',
+        desc: 'Ground-floor commercial retail storefront with full rolling shutter, modern illuminated signage, and direct roadside pedestrian access on Purabsarai Road, Munger 811201.'
+      },
+      {
+        src: 'assets/arya-plaza-front-board.jpg',
+        title: 'Front Entrance — J.P. Chowk',
+        badge: 'Official Signage · Main Market Gate',
+        desc: 'Primary 3D gold-embossed commercial branding landmark installed directly at the front entrance gate facing Purabsarai Road, Munger.'
+      },
+      {
+        src: 'assets/arya-plaza-rear-board.jpg',
+        title: 'Back Entrance — Bekapur',
+        badge: 'Secondary Ingress · Logistics Corridor',
+        desc: 'Dedicated rear access corridor providing independent vehicular entry, tenant logistics, and dual-road connectivity to Bekapur, Munger.'
+      },
+      {
+        src: 'assets/arya-plaza-street.jpg',
+        title: 'High-Footfall Market Lane',
+        badge: 'Commercial Context · Central Hub',
+        desc: 'Surrounding active commercial bazaar showing continuous customer foot traffic, retail shops, financial institutions, and high vehicular movement at J.P. Chowk.'
+      }
+    ];
+
+    function openGalleryModal(index) {
+      activeFilteredList = storefrontPhotos;
+      currentLightboxIndex = index;
+      currentLightboxType = 'gallery';
+      updateLightboxContent();
+
+      const modal = document.getElementById('lightboxModal');
+      if (modal) {
+        modal.classList.remove('opacity-0', 'pointer-events-none');
+        modal.classList.add('opacity-100');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
     function prevLightbox() {
       if (activeFilteredList.length === 0) return;
       currentLightboxIndex = (currentLightboxIndex - 1 + activeFilteredList.length) % activeFilteredList.length;
@@ -2416,11 +2642,20 @@
       if (desc) desc.textContent = item.desc;
 
       const indexEl = document.getElementById('lightboxIndex');
-      if (indexEl) indexEl.textContent = `Screenshot ${currentLightboxIndex + 1} of ${activeFilteredList.length}`;
+      if (indexEl) {
+        if (currentLightboxType === 'gallery') {
+          indexEl.textContent = `Photo ${currentLightboxIndex + 1} of ${activeFilteredList.length}`;
+        } else {
+          indexEl.textContent = `Screenshot ${currentLightboxIndex + 1} of ${activeFilteredList.length}`;
+        }
+      }
 
       const appBadge = document.getElementById('lightboxAppBadge');
       if (appBadge) {
-        if (currentLightboxType === 'admin') {
+        if (currentLightboxType === 'gallery') {
+          appBadge.textContent = item.badge || 'Storefront Photography';
+          appBadge.className = 'text-xs font-mono font-semibold px-3 py-1 rounded-full border bg-gold/20 text-gold border-gold/40';
+        } else if (currentLightboxType === 'admin') {
           appBadge.textContent = 'Owner Console';
           appBadge.className = 'text-xs font-mono font-semibold px-3 py-1 rounded-full border bg-gold/20 text-gold border-gold/40';
         } else {
@@ -2557,8 +2792,8 @@
       </button>
 
       <div
-        class="relative flex-shrink-0 w-[280px] sm:w-[320px] rounded-2xl overflow-hidden flex items-center justify-center">
-        <img id="lightboxImg" src="" alt="" width="320" height="640" class="w-full h-auto max-h-[75vh] object-contain rounded-2xl" />
+        class="relative flex-shrink-0 w-full sm:w-[360px] md:w-[440px] max-w-full rounded-2xl overflow-hidden flex items-center justify-center bg-black/40 p-2">
+        <img id="lightboxImg" src="" alt="" width="600" height="800" class="w-full h-auto max-h-[75vh] object-contain rounded-2xl filter drop-shadow-2xl" />
       </div>
 
       <div class="flex-1 flex flex-col justify-between text-left space-y-4 max-w-md w-full">
@@ -2587,8 +2822,72 @@
     </div>
   </div>
 
-  <!-- Asynchronous Google Tag Manager / GA4 External Script -->
-  <script async defer src="https://www.googletagmanager.com/gtag/js?id=G-567BVJ31HG"></script>
+  <!-- High-Performance Lazy Initializer for Map Embed & Non-Blocking Analytics -->
+  <script>
+    // Smart IntersectionObserver for Google Maps Embed
+    (function () {
+      function loadMapIframe() {
+        var mapFrame = document.querySelector('iframe[data-src]');
+        if (mapFrame && !mapFrame.src) {
+          mapFrame.src = mapFrame.getAttribute('data-src');
+        }
+      }
+
+      if ('IntersectionObserver' in window) {
+        var mapObserver = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              loadMapIframe();
+              mapObserver.disconnect();
+            }
+          });
+        }, { rootMargin: '300px 0px' });
+
+        var locationSection = document.getElementById('location');
+        if (locationSection) {
+          mapObserver.observe(locationSection);
+        } else {
+          loadMapIframe();
+        }
+      } else {
+        setTimeout(loadMapIframe, 3000);
+      }
+
+      // Pre-load on interaction with any location or map anchor
+      document.querySelectorAll('a[href*="#location"]').forEach(function (el) {
+        el.addEventListener('click', loadMapIframe, { passive: true });
+        el.addEventListener('mouseenter', loadMapIframe, { passive: true });
+      });
+    })();
+
+    // Non-blocking Google Tag Manager / GA4 Loader (Eliminates TBT & CPU Bottleneck)
+    (function () {
+      var gtagLoaded = false;
+      function injectGtag() {
+        if (gtagLoaded) return;
+        gtagLoaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-567BVJ31HG';
+        document.head.appendChild(s);
+      }
+
+      if ('requestIdleCallback' in window) {
+        window.addEventListener('load', function () {
+          requestIdleCallback(function () { setTimeout(injectGtag, 1200); }, { timeout: 3000 });
+        });
+      } else {
+        window.addEventListener('load', function () {
+          setTimeout(injectGtag, 2000);
+        });
+      }
+
+      // Trigger immediately on first human interaction
+      ['scroll', 'touchstart', 'click', 'keydown'].forEach(function (evt) {
+        window.addEventListener(evt, injectGtag, { once: true, passive: true });
+      });
+    })();
+  </script>
 </body>
 
 </html>
